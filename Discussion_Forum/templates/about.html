@@ -1,0 +1,143 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<title>Article 1</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        font-family: "Lato", sans-serif
+    }
+
+    .mySlides {
+        display: none
+    }
+
+    .navbar-custom {
+        background-color: #000000;
+    }
+
+    nav div ul li a {
+        color: #ffffff;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 7px 13px;
+        border-radius: 3px;
+
+    }
+
+    a:hover {
+        background: none;
+        color: #42585f;
+        transition: .5s;
+    }
+</style>
+
+
+<body>
+
+    <body style="background-color:#35c0ed;">
+
+        <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+            <a class="navbar-brand" href="http://127.0.0.1:8000/index">
+                <source src="{% static 'name.png' %}">
+                <img src="{% static 'name.png' %}" width="90" height="40" class="d-inline-block align-top" alt=""
+                    loading="lazy">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse"></div>
+
+            <div class="collapse navbar-collapse float-md-center" id="navbarSupportedContent">
+                <ul class="navbar-nav nav nav-center">
+                    <li class="nav-item">
+                        <a class="nav-link px-5" href="http://127.0.0.1:8000/main">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5" href="http://127.0.0.1:8000/home">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5" href="http://127.0.0.1:8000/box_one">Articles</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link px-5" href="http://127.0.0.1:8000/about" style="color: #35c0ed;">About<span
+                                class="sr-only">(current)</span></a>
+
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+            <div class="w3-container w3-content w3-center w3-padding-40" style="max-width:1000px" id="band">
+                <h2 class="w3-wide">About the site</h2>
+                <p class="w3-opacity"><i>Done under a course as project</i></p>
+                <p class="w3-justify">A site where “anyone” can share their experience of being ill-treated because of
+                    their gender. This site was made in regard with one of the Sustainable Development Goals given by
+                    the UNO, <strong>Gender Equality</strong>.</p>
+                <p class="w3-justify">The idea is to make the common users see the world from a victim’s perspective.
+                    From the victim's side, they can know what someone else who faced the same grief as
+                    them, did to gain strength. It helps a gender person to look at the problems faced by a
+                    person of the opposite gender.
+                </p>
+                <p class="w3-justify">This world generally sees people as weak and strong based on their gender. Men
+                    are considered to be strong and women are considered weak. But not all men are strong
+                    and not all women are weak. There are many incidents where women are taking
+                    advantage of laws and putting blame on men.
+                </p>
+                <p class="w3-justify">The discussion forum made, enables people to post their own forums and
+                    others can add their comments to any forum.
+                </p>
+
+                <div class="w3-container w3-content w3-center w3-padding-40" style="max-width:1000px" id="band">
+                    <h2 class="w3-wide">About the Logo and Name</h2>
+                    <p class="w3-opacity"><i></i></p>
+                    <p class="w3-justify">The Logo was designed with just one thought- to free those who are meant to be
+                        free, the bird cage
+                        where humans pet their birds for their own delight, without understanding the plight of the bird
+                        and it's will to fly.
+                        We hope that people will break those shackles and fly high.
+                    </p>
+                    <p class="w3-justify">
+                        Also we named the site <strong>2 Worlds</strong>, as there are <strong>2 Worlds</strong>. One
+                        filled with utter darkness, where people are forced to
+                        become victims of something, against their will. Other world where people live with pride and
+                        joy, not caring about deeds.
+                        The colors chosen- black and blue, thus represent the <strong>2 Worlds</strong>. We hope that
+                        the people in black world continue to pursue their
+                        dreams and fly high into the blue sky.
+                    </p>
+
+
+
+                    <footer style="text-align: center;
+                                padding: 3px;
+                                background-color: #7ccee9;
+                                color: #ffffff; display: block;
+                                position: fixed;
+                                left: 0;
+                                bottom: 0;
+                                width: 100%;
+                                text-align: center;">
+                        <p>Author: TEAM 8<br>
+                            @INDIAN INSTITUTE OF TECHNOLOGY TIRUPATI</p>
+                    </footer>
+
+    </body>
+
+</html>

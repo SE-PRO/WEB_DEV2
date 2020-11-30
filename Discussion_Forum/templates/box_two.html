@@ -1,0 +1,135 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<title>Article 2</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        font-family: "Lato", sans-serif
+    }
+
+    .mySlides {
+        display: none
+    }
+
+    .navbar-custom {
+        background-color: #000000;
+    }
+
+    nav div ul li a {
+        color: #ffffff;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 7px 13px;
+        border-radius: 3px;
+
+    }
+
+    a:hover {
+        background: none;
+        color: #42585f;
+        transition: .5s;
+    }
+</style>
+
+
+<body>
+
+    <body style="background-color:#35c0ed;">
+
+        <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+            <a class="navbar-brand" href="http://127.0.0.1:8000/index">
+                <source src="{% static 'name.png' %}">
+                <img src="{% static 'name.png' %}" width="90" height="40" class="d-inline-block align-top" alt=""
+                    loading="lazy">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse"></div>
+
+            <div class="collapse navbar-collapse float-md-center" id="navbarSupportedContent">
+                <ul class="navbar-nav nav nav-center">
+                    <li class="nav-item active">
+                        <a class="nav-link px-5" href="http://127.0.0.1:8000/main">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5" href="http://127.0.0.1:8000/home">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5" href="http://127.0.0.1:8000/box_one"
+                            style="color: #35c0ed;">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav- px-5" href="http://127.0.0.1:8000/about">About</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+
+            <!-- The Band Section -->
+            <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+                <h2 class="w3-wide">Article-2: The Gender pay gap</h2>
+
+                <p class="w3-justify">Across the board, a number of industries are stratified across the genders. This
+                    is the result of a variety of factors. These include differences in education choices, preferred job
+                    and industry, work experience, number of hours worked, and breaks in employment (such as for bearing
+                    and raising children). Men also typically go into higher paid and higher risk jobs when compared to
+                    women. These factors result in a 60% to 75% difference between men's and women's average aggregate
+                    wages or salaries, depending on the source. Various explanations for the remaining 25% to 40% have
+                    been suggested, including women's lower willingness and ability to negotiate salary and sexual
+                    discrimination. According to the European Commission, direct discrimination only explains a small
+                    part of gender wage differences.</p>
+                <p class="w3-justify">In the United States, the average female's unadjusted annual salary has been cited
+                    as 78% of that of the average male. However, multiple studies from OECD, AAUW, and the US Department
+                    of Labor have found that pay rates between males and females varied by 5–6.6% or, females earning 94
+                    cents to every dollar earned by their male counterparts when wages were adjusted to different
+                    individual choices made by male and female workers in college major, occupation, working hours, and
+                    maternal/parental leave. The remaining 6% of the gap has been speculated to originate from
+                    deficiency in salary negotiating skills and sexual discrimination.</p>
+
+
+                <a href="http://127.0.0.1:8000/box_one" class="btn"
+                    style="background-color: #000000; color:#ffffff; margin-bottom: 100px; margin-top: 20px;">Previous
+                    Article </a>
+
+                <a href="http://127.0.0.1:8000/box_three" class="btn"
+                    style="background-color: #000000; color:#ffffff; margin-bottom: 100px; margin-top: 20px;">Next
+                    Article </a>
+
+                <footer style="text-align: center; padding: 3px;
+                                 background-color: #7ccee9;
+                                 color: #ffffff; display: block;
+                                 position: fixed;
+                               left: 0;
+                              bottom: 0;
+                            width: 100%;
+                          text-align: center;">
+                    <p>Author: TEAM 8<br>
+                        @INDIAN INSTITUTE OF TECHNOLOGY TIRUPATI</p>
+                </footer>
+
+
+
+    </body>
+
+</html>

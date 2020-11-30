@@ -1,0 +1,135 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<title>Article 1</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        font-family: "Lato", sans-serif
+    }
+
+    .mySlides {
+        display: none
+    }
+
+    .navbar-custom {
+        background-color: #000000;
+    }
+
+    nav div ul li a {
+        color: #ffffff;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding: 7px 13px;
+        border-radius: 3px;
+
+    }
+
+    a:hover {
+        background: none;
+        color: #42585f;
+        transition: .5s;
+    }
+</style>
+
+
+<body>
+
+    <body style="background-color:#35c0ed;">
+
+        <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+            <a class="navbar-brand" href="http://127.0.0.1:8000/index">
+                <source src="{% static 'name.png' %}">
+                <img src="{% static 'name.png' %}" width="90" height="40" class="d-inline-block align-top" alt=""
+                    loading="lazy">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse"></div>
+
+            <div class="collapse navbar-collapse float-md-center" id="navbarSupportedContent">
+                <ul class="navbar-nav nav nav-center">
+                    <li class="nav-item active">
+                        <a class="nav-link px-5" href="http://127.0.0.1:8000/main">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5" href="http://127.0.0.1:8000/home">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5" href="http://127.0.0.1:8000/box_one"
+                            style="color: #35c0ed;">Articles<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-5" href="http://127.0.0.1:8000/about">About</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+            <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+                <h2 class="w3-wide">Article-1: Gender equality is the goal</h2>
+                <p class="w3-opacity"><i>While gender equity is a practice</i></p>
+                <p class="w3-justify">Gender equality, also known as sexual equality or equality of the sexes, is the
+                    state of equal ease of access to resources and opportunities regardless of gender, including
+                    economic participation and decision-making; and the state of valuing different behaviors,
+                    aspirations, and needs equally, regardless of gender.</p>
+                <p class="w3-justify">Gender equality is the goal, while gender neutrality and gender equities are
+                    practices and ways of thinking that help in achieving the goal. Gender parity, which is used to
+                    measure gender balance in a given situation, can aid in achieving gender equality but is not the
+                    goal in and of itself. Gender equality is more than equal representation, it is strongly tied to
+                    women's rights, and often requires policy changes. As of 2017, the global movement for gender
+                    equality has not incorporated the proposition of genders besides women and men, or gender identities
+                    outside of the gender binary.
+                </p>
+                <p class="w3-justify">UNICEF says gender equality "means that women and men, and girls and boys, enjoy
+                    the same rights, resources, opportunities and protections. It does not require that girls and boys,
+                    or women and men, be the same, or that they be treated exactly alike."
+                </p>
+                <p class="w3-justify">On a global scale, achieving gender equality also requires eliminating harmful
+                    practices against women and girls, including sex trafficking, femicide, wartime sexual violence, the
+                    gender wage gap, and other oppression tactics. UNFPA stated that "despite many international
+                    agreements affirming their human rights, women are still much more likely than men to be poor and
+                    illiterate. They have less access to property ownership, credit, training, and employment. They are
+                    far less likely than men to be politically active and far more likely to be victims of domestic
+                    violence."
+                </p>
+                <a href="http://127.0.0.1:8000/box_two" class="btn"
+                    style="background-color: #000000; color:#ffffff; margin-bottom: 100px; margin-top: 20px;">Next
+                    Article </a>
+
+                <footer style="text-align: center;
+                                 padding: 3px;
+                                 background-color: #7ccee9;
+                            color: #ffffff; display: block;
+                             position: fixed;
+                                 left: 0;
+                                bottom: 0;
+                            width: 100%;
+                            text-align: center;">
+                    <p>Author: TEAM 8<br>
+                        @INDIAN INSTITUTE OF TECHNOLOGY TIRUPATI</p>
+                </footer>
+
+
+
+    </body>
+
+</html>

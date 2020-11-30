@@ -1,0 +1,86 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <section class="container">
+        <div class="first-half">
+            <picture>
+                <source src="{% static 'Screenshot.png' %}">
+                <img src="{% static 'Screenshot.png' %}" style="position: absolute; top: 200px; left: 200px; 
+                width:280px; height:280px" />
+
+            </picture>
+        </div>
+        <div class="second-half">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a href="http://127.0.0.1:8000/main">HOME</a></li>
+                    <li><a href="http://127.0.0.1:8000/home">FORUM</a></li>
+                    <li><a href="http://127.0.0.1:8000/box_one">ARTICLES</a></li>
+                    <li><a href="http://127.0.0.1:8000/about">ABOUT</a></li>
+                </ul>
+            </nav>
+            <div class="intro">
+                <h1>Welcome</h1>
+
+                <p class="intro-text">
+                    We have made this platform to connect "<b>2</b>"
+                    sectors of people. If you are a victim,<br>then break your cage
+                    with "<b>2</b>" words. If you are not a victim, then take a look at <br>
+                    the "<b>2</b>"nd world behind you, where a person's only wish is for somebody
+                    <br>to STAND WITH THEM.
+                </p>
+
+            </div>
+            <div class="contacts">
+                <p> www.2worlds.com<br>
+                    123-456-7890
+                </p>
+            </div>
+            <picture>
+                <source src="{% static 'twitter.png' %}">
+                <img src="{% static 'twitter.png' %}" class="twitter" style="position: absolute; bottom: 150px; left: 815px; 
+                width:28px; height:28px" />
+
+            </picture>
+            <picture>
+                <source src="{% static 'mail.png' %}">
+                <img src="{% static 'mail.png' %}" class="mail" style="position: absolute; bottom: 150px; left: 850px; 
+                width:28px; height:28px" />
+
+            </picture>
+            <picture>
+                <source src="{% static 'call.png' %}">
+                <img src="{% static 'call.png' %}" class="call" style="position: absolute; bottom: 150px; left: 885px; 
+                width:28px; height:28px" />
+            </picture>
+        </div>
+    </section>
+
+</body>
+
+</html>
