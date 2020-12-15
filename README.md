@@ -29,5 +29,5 @@ Before trying to implement the project in your laptop or PC, make sure that you 
 
 
 ---
-permalink: /index.html
+permalink: Discussion_Forum/templates/index.html
 ---
