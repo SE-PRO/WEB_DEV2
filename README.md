@@ -26,3 +26,7 @@ Before trying to implement the project in your laptop or PC, make sure that you 
 2. Deepanvi Penmetcha (CS18B009)
 3. G Nikhitha Vedi (CS18B013)
 4. Narasimha Naik (CS18B016)
+
+---
+permalink: /index.html
+---
