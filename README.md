@@ -28,3 +28,6 @@ Before trying to implement the project in your laptop or PC, make sure that you 
 4. Narasimha Naik (CS18B016)
 
 
+---
+permalink: /index.html
+---
